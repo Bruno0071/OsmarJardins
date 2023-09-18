@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/for_style.css">
+    <link rel="icon" href="icons/timber-color-icon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osmar Jardins</title>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <div class="logo">
+            <a href="index.html">Osmar<span class="style-logo"> Jardins</span></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="index.html">Serviços</a></li>
+                <li><a href="index.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--inicio section-->
+    <section>
+        <h1>Contate-nos</h1>
+
+        <div class="container-form">
+            <form action="https://formsubmit.co/bruno_santiago00@outlook.com" method="POST">
+                <div class="contatos">
+                    <label>e-mail:</label>
+                    <input type="email" name="email" placeholder="ex: ...@email.com" required>
+                    <label>Telefone:</label> 
+                    <input type="tel" name="Telefone" placeholder="ex: (61)9999-9999" required>
+                </div><!--Fim da div-->
+    
+                <div class="nome">
+                    <label>Nome:</label>
+                    <input type="text" name="nome" required placeholder="ex: Seu nome">
+                    <label>Sobrenome:</label>
+                    <input type="text" name="sobrenome" placeholder="ex: Seu sobrenome">
+                </div>
+
+                <div class="id">
+                    <input type="checkbox" value="pessoa fisica" name="pessoa" id="pessoa">
+                    <label>Pessoa Física</label>
+    
+                    <input type="checkbox" value="Pessoa Jurídica"  name="Pessoa jurídica" id="empresa">
+                    <label>Pessoa Jurídica</label>
+                </div>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/osmar_jardins/obrigado.html">
+    
+                <button value="submit">Enviar</button>
+            </form>
+    
+            <div class="banner">
+                <img src="img/trocon.png" width="400px">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contatos">
+
+        <div class="footer-elements">
+            <ul>
+                <li>E-mail: osmarjardins@outlook.com</li>
+                <li>WhatsApp: (61)99694-4192</li>
+                <li>Telefone: (61)99999-9999</li>
+                <li>Cnpj: 18.716.102/0001-73</li>
+            </ul>
+        </div>
+
+        <span class="copy">&copy;OsmarJardins</span>
+    </footer>
+</body>
+</html>
